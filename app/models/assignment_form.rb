@@ -62,6 +62,7 @@ class AssignmentForm
     end
     @assignment.num_review_of_reviews = @assignment.num_metareviews_allowed
     @assignment.num_reviews = @assignment.num_reviews_allowed
+    @assignment.save
   end
 
   # code to save assignment questionnaires
